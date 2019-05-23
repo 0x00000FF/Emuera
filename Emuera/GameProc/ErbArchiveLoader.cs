@@ -11,7 +11,7 @@ using MinorShift.Emuera.GameData;
 
 namespace MinorShift.Emuera.GameProc
 {
-    class ErbArchiveLoader : IErbLoader
+    internal sealed class ErbArchiveLoader : IErbLoader
     {
         readonly Process parentProcess;
         readonly ExpressionMediator mediator;
