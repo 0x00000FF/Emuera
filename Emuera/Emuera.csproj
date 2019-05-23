@@ -126,12 +126,14 @@
     <Compile Include="GameData\Variable\VariableParser.cs" />
     <Compile Include="GameData\Variable\VariableStrArgTerm.cs" />
     <Compile Include="GameData\Variable\VariableTerm.cs" />
+    <Compile Include="GameProc\ErbArchiveLoader.cs" />
     <Compile Include="GameProc\Function\ArgumentBuilder.cs" />
     <Compile Include="GameProc\Function\ArgumentParser.cs" />
     <Compile Include="GameProc\Function\FunctionArgType.cs" />
     <Compile Include="GameProc\Function\Instraction.Child.cs" />
     <Compile Include="GameProc\Function\Instruction.cs" />
     <Compile Include="GameProc\HeaderFileLoader.cs" />
+    <Compile Include="GameProc\IErbLoader.cs" />
     <Compile Include="GameProc\InputRequest.cs" />
     <Compile Include="GameProc\LabelDictionary.cs" />
     <Compile Include="GameProc\LogicalLineParser.cs" />
