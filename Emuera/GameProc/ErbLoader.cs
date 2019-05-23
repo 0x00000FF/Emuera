@@ -104,7 +104,7 @@ namespace MinorShift.Emuera.GameProc
 		/// 指定されたファイルを読み込む
 		/// </summary>
 		/// <param name="filename"></param>
-		public bool loadErbs(List<string> path, LabelDictionary labelDictionary)
+		public bool LoadErbs(List<string> path, LabelDictionary labelDictionary)
 		{
 			string fname;
             List<string> isOnlyEvent = new List<string>();

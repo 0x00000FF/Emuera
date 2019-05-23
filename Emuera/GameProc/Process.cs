@@ -174,7 +174,7 @@ namespace MinorShift.Emuera.GameProc
 				//ERB読込
 				ErbLoader loader = new ErbLoader(console, exm, this);
                 if (Program.AnalysisMode)
-                    noError = loader.loadErbs(Program.AnalysisFiles, labelDic);
+                    noError = loader.LoadErbs(Program.AnalysisFiles, labelDic);
                 else
                     noError = loader.LoadErbFiles(Program.ErbDir, Config.DisplayReport, labelDic);
                 initSystemProcess();
@@ -209,7 +209,7 @@ namespace MinorShift.Emuera.GameProc
 			saveCurrentState(false);
 			state.SystemState = SystemStateCode.System_Reloaderb;
 			ErbLoader loader = new ErbLoader(console, exm, this);
-			loader.loadErbs(path, labelDic);
+			loader.LoadErbs(path, labelDic);
 			console.ReadAnyKey();
 		}
 

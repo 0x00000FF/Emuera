@@ -55,7 +55,7 @@ namespace MinorShift.Emuera.GameProc
         /// <param name="path"></param>
         /// <param name="labelDictionary"></param>
         /// <returns></returns>
-        public bool loadErbs(List<string> path, LabelDictionary labelDictionary)
+        public bool LoadErbs(List<string> path, LabelDictionary labelDictionary)
         {
             throw new NotImplementedException();
         }

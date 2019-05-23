@@ -10,7 +10,7 @@ namespace MinorShift.Emuera.GameProc
     {
         // Public Functions
         bool LoadErbFiles(string erbDir, bool displayReport, LabelDictionary labelDirectory);
-        bool loadErbs(List<string> path, LabelDictionary labelDictionary);
+        bool LoadErbs(List<string> path, LabelDictionary labelDictionary);
 
     }
 }
