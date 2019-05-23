@@ -70,12 +70,14 @@ namespace MinorShift.Emuera
 		}
 		private ToolStripMenuItem[] macroMenuItems = new ToolStripMenuItem[KeyMacro.MaxFkey];
         private System.Diagnostics.FileVersionInfo emueraVer = System.Diagnostics.FileVersionInfo.GetVersionInfo(System.Reflection.Assembly.GetExecutingAssembly().Location);
-		public PictureBox MainPicBox { get { return mainPicBox; } }
-		public VScrollBar ScrollBar { get { return vScrollBar; } }
-		public RichTextBox TextBox { get { return richTextBox1; } }
-        public string InternalEmueraVer { get { return emueraVer.FileVersion; } }
-		public string EmueraVerText { get { return EmuVerToolStripTextBox.Text; } }
-		public ToolTip ToolTip { get { return toolTipButton; } }
+		
+        public PictureBox MainPicBox       =>  mainPicBox;
+		public VScrollBar ScrollBar        =>  vScrollBar;
+		public RichTextBox TextBox         =>  richTextBox1;
+        public string InternalEmueraVer    =>  emueraVer.FileVersion;
+		public string EmueraVerText        =>  EmuVerToolStripTextBox.Text;
+		public ToolTip ToolTip             =>  toolTipButton;
+
 		private EmueraConsole console = null;
 
 		protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
